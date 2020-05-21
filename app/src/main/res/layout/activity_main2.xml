@@ -7,15 +7,15 @@
     tools:context=".Main2Activity">
 
     <TextView
-        android:id="@+id/Log Title"
+        android:id="@+id/LogTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="your temperature today"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.308"
-        tools:layout_editor_absoluteX="165dp" />
+        app:layout_constraintVertical_bias="0.305"
+        tools:layout_editor_absoluteX="162dp" />
 
     <EditText
         android:id="@+id/LoginputDate"
