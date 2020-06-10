@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application 2020m093</string>
+    <string name="log_body_temperature">log body temperature</string>
 </resources>
