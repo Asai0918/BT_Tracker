@@ -82,7 +82,7 @@
             android:onClick="goToNormalActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Check Nomal Range"
+            android:text="@string/check_nomal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FBF5F5" />
 
@@ -100,7 +100,7 @@
             android:onClick="goToMechanismActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
+            android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FBF5F5" />
 
@@ -118,7 +118,7 @@
             android:onClick="goToHandleActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Handling Fever"
+            android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FBF5F5" />
 

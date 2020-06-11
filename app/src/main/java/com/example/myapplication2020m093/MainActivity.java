@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
 // pop up to let user know that a reminder is set
         Toast.makeText(this, "Reminder set!", Toast.LENGTH_SHORT).show();
 // Create an intent object to start
-// the ReminderBroadcastReceiver class
-        Intent intent = new Intent(this, ReminderBroadcastReceiver.class);
+// the ReminderBroadcastReceiver2 class
+        Intent intent = new Intent(this, ReminderBroadcastReceiver2.class);
 // Create a pending intent so that the intent object above
 // will only fire when alarm triggers
         PendingIntent pd = PendingIntent.getBroadcast(this, 0, intent, 0);

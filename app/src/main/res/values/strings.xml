@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">My Application 2020m093</string>
     <string name="log_body_temperature">log body temperature</string>
+    <string name="check_nomal_range">Check Nomal Range</string>
+    <string name="mechanism_of_fever">Mechanism of Fever</string>
+    <string name="handling_fever">Handling Fever</string>
+    <string name="useful_links_about_fever">useful Links about Fever</string>
+    <string name="who_do_we_have_fever">Who do we have fever</string>
+    <string name="your_temperature_today">your temperature today</string>
+    <string name="save">save</string>
 </resources>
