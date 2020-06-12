@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    
+
     <TextView
         android:id="@+id/MainTitle"
         android:layout_width="wrap_content"
@@ -40,6 +40,7 @@
 
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="392dp"
         android:layout_height="301dp"
         android:layout_marginLeft="8dp"
