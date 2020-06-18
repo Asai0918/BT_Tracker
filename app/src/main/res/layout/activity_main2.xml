@@ -14,8 +14,8 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.305"
-        tools:layout_editor_absoluteX="162dp" />
+        app:layout_constraintVertical_bias="0.314"
+        tools:layout_editor_absoluteX="113dp" />
 
     <EditText
         android:id="@+id/LoginputDate"
@@ -25,16 +25,17 @@
         android:inputType="numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.387"
-        tools:layout_editor_absoluteX="137dp" />
+        app:layout_constraintVertical_bias="0.142"
+        tools:layout_editor_absoluteX="99dp" />
 
     <Button
         android:id="@+id/LogsaveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="364dp"
         android:text="@string/save"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

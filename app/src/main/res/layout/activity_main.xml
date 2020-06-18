@@ -10,9 +10,9 @@
         android:id="@+id/titleBackground"
         android:layout_width="422dp"
         android:layout_height="207dp"
-        android:background="#385A58"
+        android:background="#19E83D"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,19 +54,19 @@
         app:layout_constraintTop_toBottomOf="@+id/titleBackground"
         app:layout_constraintVertical_bias="0.04000002">
 
+
         <TextView
             android:id="@+id/MainButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#8822A6"
             android:onClick="goToLogActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FBF5F5" />
-
 
         <View
             android:id="@+id/view"
@@ -78,7 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#1518C3"
             android:onClick="goToNormalActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="32dp"
             android:layout_weight="1"
-            android:background="#009688"
+            android:background="#FAD70D"
             android:onClick="goToMechanismActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
